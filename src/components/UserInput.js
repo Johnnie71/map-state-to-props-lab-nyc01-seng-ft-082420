@@ -12,7 +12,7 @@ class UserInput extends Component {
     this.setState({
       [event.target.id]: event.target.value
     });
-  }
+  } 
 
   handleOnSubmit = (event) => {
     event.preventDefault();
